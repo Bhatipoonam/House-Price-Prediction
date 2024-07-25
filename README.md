@@ -2,25 +2,25 @@ Here's a simplified README file aimed at students:
 
 ---
 
-# Boston House Price Prediction
+ House Price Prediction
 
 This project predicts house prices using the Boston House Price dataset with the XGBoost Regressor.
 
-## Table of Contents
+ Table of Contents
 
-- [Introduction](#introduction)
-- [Dataset](#dataset)
-- [Dependencies](#dependencies)
-- [Code Overview](#code-overview)
-- [Evaluation](#evaluation)
-- [Visualization](#visualization)
-- [How to Run](#how-to-run)
+- [Introduction](introduction)
+- [Dataset](dataset)
+- [Dependencies](dependencies)
+- [Code Overview](code-overview)
+- [Evaluation](evaluation)
+- [Visualization](visualization)
+- [How to Run](how-to-run)
 
-## Introduction
+ Introduction
 
 This project uses data from Boston housing to predict house prices based on features like crime rate, number of rooms, and more. We use the XGBoost Regressor model for training and evaluation.
 
-## Dataset
+ Dataset
 
 The Boston House Price dataset includes the following features:
 - CRIM: Crime rate
@@ -38,7 +38,7 @@ The Boston House Price dataset includes the following features:
 - LSTAT: % lower status population
 - MEDV: Median value of homes (target)
 
-## Dependencies
+ Dependencies
 
 You need the following Python libraries:
 - numpy
@@ -53,36 +53,25 @@ Install them using:
 pip install numpy pandas matplotlib seaborn scikit-learn xgboost
 ```
 
-## Code Overview
+ Code Overview
 
-1. **Import Libraries:** Load necessary Python libraries.
-2. **Load Dataset:** Load the Boston House Price dataset.
-3. **Prepare Data:** Convert data to a DataFrame and add the target column.
-4. **Check Data:** Verify data structure, missing values, and basic statistics.
-5. **Visualize Correlations:** Use a heatmap to understand feature correlations.
-6. **Split Data:** Divide data into training and testing sets.
-7. **Train Model:** Use XGBoost Regressor to train the model.
-8. **Evaluate Model:** Calculate R-squared and Mean Absolute Error for model evaluation.
-9. **Visualize Results:** Plot actual prices vs. predicted prices.
+1. Import Libraries: Load necessary Python libraries.
+2. Load Dataset: Load the Boston House Price dataset.
+3. Prepare Data: Convert data to a DataFrame and add the target column.
+4. Check Data: Verify data structure, missing values, and basic statistics.
+5. Visualize Correlations: Use a heatmap to understand feature correlations.
+6. Split Data: Divide data into training and testing sets.
+7. Train Model: Use XGBoost Regressor to train the model.
+8. Evaluate Model: Calculate R-squared and Mean Absolute Error for model evaluation.
+9. Visualize Results: Plot actual prices vs. predicted prices.
 
-## Evaluation
+Evaluation
 
-- **R-squared Error:** Measures prediction accuracy.
-- **Mean Absolute Error:** Measures average error in predictions.
+- R-squared Error: Measures prediction accuracy.
+- Mean Absolute Error: Measures average error in predictions.
 
 ## Visualization
 
 Visualize actual vs. predicted prices using a scatter plot.
 
-## How to Run
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/yourusername/boston-house-price-prediction.git
-   cd boston-house-price-prediction
-   ```
-
-2. **Run the Script:**
-   ```python
-   python boston_house_price_prediction.py
-   ```
+ 
